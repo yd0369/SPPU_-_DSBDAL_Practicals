@@ -1,0 +1,2457 @@
+************************************************************
+[ ! ] Input :  ['sepal_length' 'sepal_width'] | Output :  class 
+
+
+[ 0 ][ 0 ] -> Training Method : LinearRegression() | Scaler Method : N/A
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.31283970140209316
+Model Accuracy : 0.7694790299306637
+----------------------------------------
+[ 0 ][ 1 ] -> Training Method : LinearRegression() | Scaler Method : MinMaxScaler
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.3128397014020935
+Model Accuracy : 0.7694790299306639
+----------------------------------------
+[ 0 ][ 2 ] -> Training Method : LinearRegression() | Scaler Method : StandardScaler
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.31283970140209366
+Model Accuracy : 0.7694790299306637
+----------------------------------------
+[ 1 ][ 0 ] -> Training Method : LogisticRegression() | Scaler Method : N/A
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.16216216216216217
+Model Accuracy : 0.8378378378378378
+Confusion Matrix ->  
+ [[14  0  0]
+ [ 0  8  1]
+ [ 0  5  9]] 
+
+    Actual : Predicted 
+    Setosa : Setosa      14 
+    Setosa : VersiColor  0 
+    Setosa : Virginica   0 
+VersiColor : Setosa      0 
+VersiColor : VersiColor  8 
+VersiColor : Virginica   1 
+ Virginica : Setosa      0 
+ Virginica : VersiColor  5 
+ Virginica : Virginica   9 
+
+
+Precision : 0.8384615384615385
+Recall : 0.8439153439153438
+F-Score : 0.8257575757575758
+----------------------------------------
+[ 1 ][ 1 ] -> Training Method : LogisticRegression() | Scaler Method : MinMaxScaler
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.16216216216216217
+Model Accuracy : 0.8378378378378378
+Confusion Matrix ->  
+ [[14  0  0]
+ [ 0  8  1]
+ [ 0  5  9]] 
+
+    Actual : Predicted 
+    Setosa : Setosa      14 
+    Setosa : VersiColor  0 
+    Setosa : Virginica   0 
+VersiColor : Setosa      0 
+VersiColor : VersiColor  8 
+VersiColor : Virginica   1 
+ Virginica : Setosa      0 
+ Virginica : VersiColor  5 
+ Virginica : Virginica   9 
+
+
+Precision : 0.8384615384615385
+Recall : 0.8439153439153438
+F-Score : 0.8257575757575758
+----------------------------------------
+[ 1 ][ 2 ] -> Training Method : LogisticRegression() | Scaler Method : StandardScaler
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.16216216216216217
+Model Accuracy : 0.8378378378378378
+Confusion Matrix ->  
+ [[14  0  0]
+ [ 0  8  1]
+ [ 0  5  9]] 
+
+    Actual : Predicted 
+    Setosa : Setosa      14 
+    Setosa : VersiColor  0 
+    Setosa : Virginica   0 
+VersiColor : Setosa      0 
+VersiColor : VersiColor  8 
+VersiColor : Virginica   1 
+ Virginica : Setosa      0 
+ Virginica : VersiColor  5 
+ Virginica : Virginica   9 
+
+
+Precision : 0.8384615384615385
+Recall : 0.8439153439153438
+F-Score : 0.8257575757575758
+----------------------------------------
+[ 2 ][ 0 ] -> Training Method : GaussianNB() | Scaler Method : N/A
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.16216216216216217
+Model Accuracy : 0.8378378378378378
+Confusion Matrix ->  
+ [[14  0  0]
+ [ 0  8  1]
+ [ 0  5  9]] 
+
+    Actual : Predicted 
+    Setosa : Setosa      14 
+    Setosa : VersiColor  0 
+    Setosa : Virginica   0 
+VersiColor : Setosa      0 
+VersiColor : VersiColor  8 
+VersiColor : Virginica   1 
+ Virginica : Setosa      0 
+ Virginica : VersiColor  5 
+ Virginica : Virginica   9 
+
+
+Precision : 0.8384615384615385
+Recall : 0.8439153439153438
+F-Score : 0.8257575757575758
+----------------------------------------
+[ 2 ][ 1 ] -> Training Method : GaussianNB() | Scaler Method : MinMaxScaler
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.16216216216216217
+Model Accuracy : 0.8378378378378378
+Confusion Matrix ->  
+ [[14  0  0]
+ [ 0  8  1]
+ [ 0  5  9]] 
+
+    Actual : Predicted 
+    Setosa : Setosa      14 
+    Setosa : VersiColor  0 
+    Setosa : Virginica   0 
+VersiColor : Setosa      0 
+VersiColor : VersiColor  8 
+VersiColor : Virginica   1 
+ Virginica : Setosa      0 
+ Virginica : VersiColor  5 
+ Virginica : Virginica   9 
+
+
+Precision : 0.8384615384615385
+Recall : 0.8439153439153438
+F-Score : 0.8257575757575758
+----------------------------------------
+[ 2 ][ 2 ] -> Training Method : GaussianNB() | Scaler Method : StandardScaler
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.16216216216216217
+Model Accuracy : 0.8378378378378378
+Confusion Matrix ->  
+ [[14  0  0]
+ [ 0  8  1]
+ [ 0  5  9]] 
+
+    Actual : Predicted 
+    Setosa : Setosa      14 
+    Setosa : VersiColor  0 
+    Setosa : Virginica   0 
+VersiColor : Setosa      0 
+VersiColor : VersiColor  8 
+VersiColor : Virginica   1 
+ Virginica : Setosa      0 
+ Virginica : VersiColor  5 
+ Virginica : Virginica   9 
+
+
+Precision : 0.8384615384615385
+Recall : 0.8439153439153438
+F-Score : 0.8257575757575758
+----------------------------------------
+
+
+
+
+
+************************************************************
+[ ! ] Input :  ['sepal_width' 'petal_length'] | Output :  class 
+
+
+[ 0 ][ 0 ] -> Training Method : LinearRegression() | Scaler Method : N/A
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.20229648303148162
+Model Accuracy : 0.9016695482333473
+----------------------------------------
+[ 0 ][ 1 ] -> Training Method : LinearRegression() | Scaler Method : MinMaxScaler
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.20229648303148168
+Model Accuracy : 0.9016695482333472
+----------------------------------------
+[ 0 ][ 2 ] -> Training Method : LinearRegression() | Scaler Method : StandardScaler
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.20229648303148154
+Model Accuracy : 0.9016695482333473
+----------------------------------------
+[ 1 ][ 0 ] -> Training Method : LogisticRegression() | Scaler Method : N/A
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.10810810810810811
+Model Accuracy : 0.8918918918918919
+Confusion Matrix ->  
+ [[14  0  0]
+ [ 0  8  1]
+ [ 0  3 11]] 
+
+    Actual : Predicted 
+    Setosa : Setosa      14 
+    Setosa : VersiColor  0 
+    Setosa : Virginica   0 
+VersiColor : Setosa      0 
+VersiColor : VersiColor  8 
+VersiColor : Virginica   1 
+ Virginica : Setosa      0 
+ Virginica : VersiColor  3 
+ Virginica : Virginica   11 
+
+
+Precision : 0.8813131313131314
+Recall : 0.8915343915343915
+F-Score : 0.882051282051282
+----------------------------------------
+[ 1 ][ 1 ] -> Training Method : LogisticRegression() | Scaler Method : MinMaxScaler
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.08108108108108109
+Model Accuracy : 0.918918918918919
+Confusion Matrix ->  
+ [[14  0  0]
+ [ 0  9  0]
+ [ 0  3 11]] 
+
+    Actual : Predicted 
+    Setosa : Setosa      14 
+    Setosa : VersiColor  0 
+    Setosa : Virginica   0 
+VersiColor : Setosa      0 
+VersiColor : VersiColor  9 
+VersiColor : Virginica   0 
+ Virginica : Setosa      0 
+ Virginica : VersiColor  3 
+ Virginica : Virginica   11 
+
+
+Precision : 0.9166666666666666
+Recall : 0.9285714285714285
+F-Score : 0.9123809523809524
+----------------------------------------
+[ 1 ][ 2 ] -> Training Method : LogisticRegression() | Scaler Method : StandardScaler
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.10810810810810811
+Model Accuracy : 0.8918918918918919
+Confusion Matrix ->  
+ [[14  0  0]
+ [ 0  8  1]
+ [ 0  3 11]] 
+
+    Actual : Predicted 
+    Setosa : Setosa      14 
+    Setosa : VersiColor  0 
+    Setosa : Virginica   0 
+VersiColor : Setosa      0 
+VersiColor : VersiColor  8 
+VersiColor : Virginica   1 
+ Virginica : Setosa      0 
+ Virginica : VersiColor  3 
+ Virginica : Virginica   11 
+
+
+Precision : 0.8813131313131314
+Recall : 0.8915343915343915
+F-Score : 0.882051282051282
+----------------------------------------
+[ 2 ][ 0 ] -> Training Method : GaussianNB() | Scaler Method : N/A
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.13513513513513514
+Model Accuracy : 0.8648648648648649
+Confusion Matrix ->  
+ [[14  0  0]
+ [ 0  8  1]
+ [ 0  4 10]] 
+
+    Actual : Predicted 
+    Setosa : Setosa      14 
+    Setosa : VersiColor  0 
+    Setosa : Virginica   0 
+VersiColor : Setosa      0 
+VersiColor : VersiColor  8 
+VersiColor : Virginica   1 
+ Virginica : Setosa      0 
+ Virginica : VersiColor  4 
+ Virginica : Virginica   10 
+
+
+Precision : 0.8585858585858586
+Recall : 0.8677248677248678
+F-Score : 0.8539682539682539
+----------------------------------------
+[ 2 ][ 1 ] -> Training Method : GaussianNB() | Scaler Method : MinMaxScaler
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.13513513513513514
+Model Accuracy : 0.8648648648648649
+Confusion Matrix ->  
+ [[14  0  0]
+ [ 0  8  1]
+ [ 0  4 10]] 
+
+    Actual : Predicted 
+    Setosa : Setosa      14 
+    Setosa : VersiColor  0 
+    Setosa : Virginica   0 
+VersiColor : Setosa      0 
+VersiColor : VersiColor  8 
+VersiColor : Virginica   1 
+ Virginica : Setosa      0 
+ Virginica : VersiColor  4 
+ Virginica : Virginica   10 
+
+
+Precision : 0.8585858585858586
+Recall : 0.8677248677248678
+F-Score : 0.8539682539682539
+----------------------------------------
+[ 2 ][ 2 ] -> Training Method : GaussianNB() | Scaler Method : StandardScaler
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.13513513513513514
+Model Accuracy : 0.8648648648648649
+Confusion Matrix ->  
+ [[14  0  0]
+ [ 0  8  1]
+ [ 0  4 10]] 
+
+    Actual : Predicted 
+    Setosa : Setosa      14 
+    Setosa : VersiColor  0 
+    Setosa : Virginica   0 
+VersiColor : Setosa      0 
+VersiColor : VersiColor  8 
+VersiColor : Virginica   1 
+ Virginica : Setosa      0 
+ Virginica : VersiColor  4 
+ Virginica : Virginica   10 
+
+
+Precision : 0.8585858585858586
+Recall : 0.8677248677248678
+F-Score : 0.8539682539682539
+----------------------------------------
+
+
+
+
+
+************************************************************
+[ ! ] Input :  ['petal_length' 'petal_width'] | Output :  class 
+
+
+[ 0 ][ 0 ] -> Training Method : LinearRegression() | Scaler Method : N/A
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.16450940275598372
+Model Accuracy : 0.9312487235915616
+----------------------------------------
+[ 0 ][ 1 ] -> Training Method : LinearRegression() | Scaler Method : MinMaxScaler
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.16450940275598366
+Model Accuracy : 0.9312487235915616
+----------------------------------------
+[ 0 ][ 2 ] -> Training Method : LinearRegression() | Scaler Method : StandardScaler
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.16450940275598377
+Model Accuracy : 0.9312487235915617
+----------------------------------------
+[ 1 ][ 0 ] -> Training Method : LogisticRegression() | Scaler Method : N/A
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.10810810810810811
+Model Accuracy : 0.8918918918918919
+Confusion Matrix ->  
+ [[14  0  0]
+ [ 0  8  1]
+ [ 0  3 11]] 
+
+    Actual : Predicted 
+    Setosa : Setosa      14 
+    Setosa : VersiColor  0 
+    Setosa : Virginica   0 
+VersiColor : Setosa      0 
+VersiColor : VersiColor  8 
+VersiColor : Virginica   1 
+ Virginica : Setosa      0 
+ Virginica : VersiColor  3 
+ Virginica : Virginica   11 
+
+
+Precision : 0.8813131313131314
+Recall : 0.8915343915343915
+F-Score : 0.882051282051282
+----------------------------------------
+[ 1 ][ 1 ] -> Training Method : LogisticRegression() | Scaler Method : MinMaxScaler
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.05405405405405406
+Model Accuracy : 0.9459459459459459
+Confusion Matrix ->  
+ [[14  0  0]
+ [ 0  9  0]
+ [ 0  2 12]] 
+
+    Actual : Predicted 
+    Setosa : Setosa      14 
+    Setosa : VersiColor  0 
+    Setosa : Virginica   0 
+VersiColor : Setosa      0 
+VersiColor : VersiColor  9 
+VersiColor : Virginica   0 
+ Virginica : Setosa      0 
+ Virginica : VersiColor  2 
+ Virginica : Virginica   12 
+
+
+Precision : 0.9393939393939394
+Recall : 0.9523809523809524
+F-Score : 0.9410256410256409
+----------------------------------------
+[ 1 ][ 2 ] -> Training Method : LogisticRegression() | Scaler Method : StandardScaler
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.05405405405405406
+Model Accuracy : 0.9459459459459459
+Confusion Matrix ->  
+ [[14  0  0]
+ [ 0  9  0]
+ [ 0  2 12]] 
+
+    Actual : Predicted 
+    Setosa : Setosa      14 
+    Setosa : VersiColor  0 
+    Setosa : Virginica   0 
+VersiColor : Setosa      0 
+VersiColor : VersiColor  9 
+VersiColor : Virginica   0 
+ Virginica : Setosa      0 
+ Virginica : VersiColor  2 
+ Virginica : Virginica   12 
+
+
+Precision : 0.9393939393939394
+Recall : 0.9523809523809524
+F-Score : 0.9410256410256409
+----------------------------------------
+[ 2 ][ 0 ] -> Training Method : GaussianNB() | Scaler Method : N/A
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.08108108108108109
+Model Accuracy : 0.918918918918919
+Confusion Matrix ->  
+ [[14  0  0]
+ [ 0  8  1]
+ [ 0  2 12]] 
+
+    Actual : Predicted 
+    Setosa : Setosa      14 
+    Setosa : VersiColor  0 
+    Setosa : Virginica   0 
+VersiColor : Setosa      0 
+VersiColor : VersiColor  8 
+VersiColor : Virginica   1 
+ Virginica : Setosa      0 
+ Virginica : VersiColor  2 
+ Virginica : Virginica   12 
+
+
+Precision : 0.9076923076923077
+Recall : 0.9153439153439153
+F-Score : 0.9103313840155945
+----------------------------------------
+[ 2 ][ 1 ] -> Training Method : GaussianNB() | Scaler Method : MinMaxScaler
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.08108108108108109
+Model Accuracy : 0.918918918918919
+Confusion Matrix ->  
+ [[14  0  0]
+ [ 0  8  1]
+ [ 0  2 12]] 
+
+    Actual : Predicted 
+    Setosa : Setosa      14 
+    Setosa : VersiColor  0 
+    Setosa : Virginica   0 
+VersiColor : Setosa      0 
+VersiColor : VersiColor  8 
+VersiColor : Virginica   1 
+ Virginica : Setosa      0 
+ Virginica : VersiColor  2 
+ Virginica : Virginica   12 
+
+
+Precision : 0.9076923076923077
+Recall : 0.9153439153439153
+F-Score : 0.9103313840155945
+----------------------------------------
+[ 2 ][ 2 ] -> Training Method : GaussianNB() | Scaler Method : StandardScaler
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.08108108108108109
+Model Accuracy : 0.918918918918919
+Confusion Matrix ->  
+ [[14  0  0]
+ [ 0  8  1]
+ [ 0  2 12]] 
+
+    Actual : Predicted 
+    Setosa : Setosa      14 
+    Setosa : VersiColor  0 
+    Setosa : Virginica   0 
+VersiColor : Setosa      0 
+VersiColor : VersiColor  8 
+VersiColor : Virginica   1 
+ Virginica : Setosa      0 
+ Virginica : VersiColor  2 
+ Virginica : Virginica   12 
+
+
+Precision : 0.9076923076923077
+Recall : 0.9153439153439153
+F-Score : 0.9103313840155945
+----------------------------------------
+
+
+
+
+
+************************************************************
+[ ! ] Input :  ['sepal_length' 'petal_width'] | Output :  class 
+
+
+[ 0 ][ 0 ] -> Training Method : LinearRegression() | Scaler Method : N/A
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.17972739386465966
+Model Accuracy : 0.9217054101129385
+----------------------------------------
+[ 0 ][ 1 ] -> Training Method : LinearRegression() | Scaler Method : MinMaxScaler
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.1797273938646594
+Model Accuracy : 0.9217054101129387
+----------------------------------------
+[ 0 ][ 2 ] -> Training Method : LinearRegression() | Scaler Method : StandardScaler
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.17972739386465955
+Model Accuracy : 0.9217054101129387
+----------------------------------------
+[ 1 ][ 0 ] -> Training Method : LogisticRegression() | Scaler Method : N/A
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.05405405405405406
+Model Accuracy : 0.9459459459459459
+Confusion Matrix ->  
+ [[14  0  0]
+ [ 0  9  0]
+ [ 0  2 12]] 
+
+    Actual : Predicted 
+    Setosa : Setosa      14 
+    Setosa : VersiColor  0 
+    Setosa : Virginica   0 
+VersiColor : Setosa      0 
+VersiColor : VersiColor  9 
+VersiColor : Virginica   0 
+ Virginica : Setosa      0 
+ Virginica : VersiColor  2 
+ Virginica : Virginica   12 
+
+
+Precision : 0.9393939393939394
+Recall : 0.9523809523809524
+F-Score : 0.9410256410256409
+----------------------------------------
+[ 1 ][ 1 ] -> Training Method : LogisticRegression() | Scaler Method : MinMaxScaler
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.05405405405405406
+Model Accuracy : 0.9459459459459459
+Confusion Matrix ->  
+ [[14  0  0]
+ [ 0  9  0]
+ [ 0  2 12]] 
+
+    Actual : Predicted 
+    Setosa : Setosa      14 
+    Setosa : VersiColor  0 
+    Setosa : Virginica   0 
+VersiColor : Setosa      0 
+VersiColor : VersiColor  9 
+VersiColor : Virginica   0 
+ Virginica : Setosa      0 
+ Virginica : VersiColor  2 
+ Virginica : Virginica   12 
+
+
+Precision : 0.9393939393939394
+Recall : 0.9523809523809524
+F-Score : 0.9410256410256409
+----------------------------------------
+[ 1 ][ 2 ] -> Training Method : LogisticRegression() | Scaler Method : StandardScaler
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.05405405405405406
+Model Accuracy : 0.9459459459459459
+Confusion Matrix ->  
+ [[14  0  0]
+ [ 0  9  0]
+ [ 0  2 12]] 
+
+    Actual : Predicted 
+    Setosa : Setosa      14 
+    Setosa : VersiColor  0 
+    Setosa : Virginica   0 
+VersiColor : Setosa      0 
+VersiColor : VersiColor  9 
+VersiColor : Virginica   0 
+ Virginica : Setosa      0 
+ Virginica : VersiColor  2 
+ Virginica : Virginica   12 
+
+
+Precision : 0.9393939393939394
+Recall : 0.9523809523809524
+F-Score : 0.9410256410256409
+----------------------------------------
+[ 2 ][ 0 ] -> Training Method : GaussianNB() | Scaler Method : N/A
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.05405405405405406
+Model Accuracy : 0.9459459459459459
+Confusion Matrix ->  
+ [[14  0  0]
+ [ 0  9  0]
+ [ 0  2 12]] 
+
+    Actual : Predicted 
+    Setosa : Setosa      14 
+    Setosa : VersiColor  0 
+    Setosa : Virginica   0 
+VersiColor : Setosa      0 
+VersiColor : VersiColor  9 
+VersiColor : Virginica   0 
+ Virginica : Setosa      0 
+ Virginica : VersiColor  2 
+ Virginica : Virginica   12 
+
+
+Precision : 0.9393939393939394
+Recall : 0.9523809523809524
+F-Score : 0.9410256410256409
+----------------------------------------
+[ 2 ][ 1 ] -> Training Method : GaussianNB() | Scaler Method : MinMaxScaler
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.05405405405405406
+Model Accuracy : 0.9459459459459459
+Confusion Matrix ->  
+ [[14  0  0]
+ [ 0  9  0]
+ [ 0  2 12]] 
+
+    Actual : Predicted 
+    Setosa : Setosa      14 
+    Setosa : VersiColor  0 
+    Setosa : Virginica   0 
+VersiColor : Setosa      0 
+VersiColor : VersiColor  9 
+VersiColor : Virginica   0 
+ Virginica : Setosa      0 
+ Virginica : VersiColor  2 
+ Virginica : Virginica   12 
+
+
+Precision : 0.9393939393939394
+Recall : 0.9523809523809524
+F-Score : 0.9410256410256409
+----------------------------------------
+[ 2 ][ 2 ] -> Training Method : GaussianNB() | Scaler Method : StandardScaler
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.05405405405405406
+Model Accuracy : 0.9459459459459459
+Confusion Matrix ->  
+ [[14  0  0]
+ [ 0  9  0]
+ [ 0  2 12]] 
+
+    Actual : Predicted 
+    Setosa : Setosa      14 
+    Setosa : VersiColor  0 
+    Setosa : Virginica   0 
+VersiColor : Setosa      0 
+VersiColor : VersiColor  9 
+VersiColor : Virginica   0 
+ Virginica : Setosa      0 
+ Virginica : VersiColor  2 
+ Virginica : Virginica   12 
+
+
+Precision : 0.9393939393939394
+Recall : 0.9523809523809524
+F-Score : 0.9410256410256409
+----------------------------------------
+
+
+
+
+
+************************************************************
+[ ! ] Input :  ['sepal_width' 'petal_length' 'petal_width'] | Output :  class 
+
+
+[ 0 ][ 0 ] -> Training Method : LinearRegression() | Scaler Method : N/A
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.16963564839073927
+Model Accuracy : 0.9312968516581421
+----------------------------------------
+[ 0 ][ 1 ] -> Training Method : LinearRegression() | Scaler Method : MinMaxScaler
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.16963564839073902
+Model Accuracy : 0.9312968516581422
+----------------------------------------
+[ 0 ][ 2 ] -> Training Method : LinearRegression() | Scaler Method : StandardScaler
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.16963564839073894
+Model Accuracy : 0.9312968516581422
+----------------------------------------
+[ 1 ][ 0 ] -> Training Method : LogisticRegression() | Scaler Method : N/A
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.10810810810810811
+Model Accuracy : 0.8918918918918919
+Confusion Matrix ->  
+ [[14  0  0]
+ [ 0  8  1]
+ [ 0  3 11]] 
+
+    Actual : Predicted 
+    Setosa : Setosa      14 
+    Setosa : VersiColor  0 
+    Setosa : Virginica   0 
+VersiColor : Setosa      0 
+VersiColor : VersiColor  8 
+VersiColor : Virginica   1 
+ Virginica : Setosa      0 
+ Virginica : VersiColor  3 
+ Virginica : Virginica   11 
+
+
+Precision : 0.8813131313131314
+Recall : 0.8915343915343915
+F-Score : 0.882051282051282
+----------------------------------------
+[ 1 ][ 1 ] -> Training Method : LogisticRegression() | Scaler Method : MinMaxScaler
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.05405405405405406
+Model Accuracy : 0.9459459459459459
+Confusion Matrix ->  
+ [[14  0  0]
+ [ 0  9  0]
+ [ 0  2 12]] 
+
+    Actual : Predicted 
+    Setosa : Setosa      14 
+    Setosa : VersiColor  0 
+    Setosa : Virginica   0 
+VersiColor : Setosa      0 
+VersiColor : VersiColor  9 
+VersiColor : Virginica   0 
+ Virginica : Setosa      0 
+ Virginica : VersiColor  2 
+ Virginica : Virginica   12 
+
+
+Precision : 0.9393939393939394
+Recall : 0.9523809523809524
+F-Score : 0.9410256410256409
+----------------------------------------
+[ 1 ][ 2 ] -> Training Method : LogisticRegression() | Scaler Method : StandardScaler
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.08108108108108109
+Model Accuracy : 0.918918918918919
+Confusion Matrix ->  
+ [[14  0  0]
+ [ 0  8  1]
+ [ 0  2 12]] 
+
+    Actual : Predicted 
+    Setosa : Setosa      14 
+    Setosa : VersiColor  0 
+    Setosa : Virginica   0 
+VersiColor : Setosa      0 
+VersiColor : VersiColor  8 
+VersiColor : Virginica   1 
+ Virginica : Setosa      0 
+ Virginica : VersiColor  2 
+ Virginica : Virginica   12 
+
+
+Precision : 0.9076923076923077
+Recall : 0.9153439153439153
+F-Score : 0.9103313840155945
+----------------------------------------
+[ 2 ][ 0 ] -> Training Method : GaussianNB() | Scaler Method : N/A
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.05405405405405406
+Model Accuracy : 0.9459459459459459
+Confusion Matrix ->  
+ [[14  0  0]
+ [ 0  9  0]
+ [ 0  2 12]] 
+
+    Actual : Predicted 
+    Setosa : Setosa      14 
+    Setosa : VersiColor  0 
+    Setosa : Virginica   0 
+VersiColor : Setosa      0 
+VersiColor : VersiColor  9 
+VersiColor : Virginica   0 
+ Virginica : Setosa      0 
+ Virginica : VersiColor  2 
+ Virginica : Virginica   12 
+
+
+Precision : 0.9393939393939394
+Recall : 0.9523809523809524
+F-Score : 0.9410256410256409
+----------------------------------------
+[ 2 ][ 1 ] -> Training Method : GaussianNB() | Scaler Method : MinMaxScaler
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.05405405405405406
+Model Accuracy : 0.9459459459459459
+Confusion Matrix ->  
+ [[14  0  0]
+ [ 0  9  0]
+ [ 0  2 12]] 
+
+    Actual : Predicted 
+    Setosa : Setosa      14 
+    Setosa : VersiColor  0 
+    Setosa : Virginica   0 
+VersiColor : Setosa      0 
+VersiColor : VersiColor  9 
+VersiColor : Virginica   0 
+ Virginica : Setosa      0 
+ Virginica : VersiColor  2 
+ Virginica : Virginica   12 
+
+
+Precision : 0.9393939393939394
+Recall : 0.9523809523809524
+F-Score : 0.9410256410256409
+----------------------------------------
+[ 2 ][ 2 ] -> Training Method : GaussianNB() | Scaler Method : StandardScaler
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.05405405405405406
+Model Accuracy : 0.9459459459459459
+Confusion Matrix ->  
+ [[14  0  0]
+ [ 0  9  0]
+ [ 0  2 12]] 
+
+    Actual : Predicted 
+    Setosa : Setosa      14 
+    Setosa : VersiColor  0 
+    Setosa : Virginica   0 
+VersiColor : Setosa      0 
+VersiColor : VersiColor  9 
+VersiColor : Virginica   0 
+ Virginica : Setosa      0 
+ Virginica : VersiColor  2 
+ Virginica : Virginica   12 
+
+
+Precision : 0.9393939393939394
+Recall : 0.9523809523809524
+F-Score : 0.9410256410256409
+----------------------------------------
+
+
+
+
+
+************************************************************
+[ ! ] Input :  ['sepal_length' 'petal_length' 'petal_width'] | Output :  class 
+
+
+[ 0 ][ 0 ] -> Training Method : LinearRegression() | Scaler Method : N/A
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.1772150782173015
+Model Accuracy : 0.93043749159976
+----------------------------------------
+[ 0 ][ 1 ] -> Training Method : LinearRegression() | Scaler Method : MinMaxScaler
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.1772150782173015
+Model Accuracy : 0.93043749159976
+----------------------------------------
+[ 0 ][ 2 ] -> Training Method : LinearRegression() | Scaler Method : StandardScaler
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.17721507821730148
+Model Accuracy : 0.93043749159976
+----------------------------------------
+[ 1 ][ 0 ] -> Training Method : LogisticRegression() | Scaler Method : N/A
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.08108108108108109
+Model Accuracy : 0.918918918918919
+Confusion Matrix ->  
+ [[14  0  0]
+ [ 0  8  1]
+ [ 0  2 12]] 
+
+    Actual : Predicted 
+    Setosa : Setosa      14 
+    Setosa : VersiColor  0 
+    Setosa : Virginica   0 
+VersiColor : Setosa      0 
+VersiColor : VersiColor  8 
+VersiColor : Virginica   1 
+ Virginica : Setosa      0 
+ Virginica : VersiColor  2 
+ Virginica : Virginica   12 
+
+
+Precision : 0.9076923076923077
+Recall : 0.9153439153439153
+F-Score : 0.9103313840155945
+----------------------------------------
+[ 1 ][ 1 ] -> Training Method : LogisticRegression() | Scaler Method : MinMaxScaler
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.05405405405405406
+Model Accuracy : 0.9459459459459459
+Confusion Matrix ->  
+ [[14  0  0]
+ [ 0  9  0]
+ [ 0  2 12]] 
+
+    Actual : Predicted 
+    Setosa : Setosa      14 
+    Setosa : VersiColor  0 
+    Setosa : Virginica   0 
+VersiColor : Setosa      0 
+VersiColor : VersiColor  9 
+VersiColor : Virginica   0 
+ Virginica : Setosa      0 
+ Virginica : VersiColor  2 
+ Virginica : Virginica   12 
+
+
+Precision : 0.9393939393939394
+Recall : 0.9523809523809524
+F-Score : 0.9410256410256409
+----------------------------------------
+[ 1 ][ 2 ] -> Training Method : LogisticRegression() | Scaler Method : StandardScaler
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.05405405405405406
+Model Accuracy : 0.9459459459459459
+Confusion Matrix ->  
+ [[14  0  0]
+ [ 0  9  0]
+ [ 0  2 12]] 
+
+    Actual : Predicted 
+    Setosa : Setosa      14 
+    Setosa : VersiColor  0 
+    Setosa : Virginica   0 
+VersiColor : Setosa      0 
+VersiColor : VersiColor  9 
+VersiColor : Virginica   0 
+ Virginica : Setosa      0 
+ Virginica : VersiColor  2 
+ Virginica : Virginica   12 
+
+
+Precision : 0.9393939393939394
+Recall : 0.9523809523809524
+F-Score : 0.9410256410256409
+----------------------------------------
+[ 2 ][ 0 ] -> Training Method : GaussianNB() | Scaler Method : N/A
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.05405405405405406
+Model Accuracy : 0.9459459459459459
+Confusion Matrix ->  
+ [[14  0  0]
+ [ 0  9  0]
+ [ 0  2 12]] 
+
+    Actual : Predicted 
+    Setosa : Setosa      14 
+    Setosa : VersiColor  0 
+    Setosa : Virginica   0 
+VersiColor : Setosa      0 
+VersiColor : VersiColor  9 
+VersiColor : Virginica   0 
+ Virginica : Setosa      0 
+ Virginica : VersiColor  2 
+ Virginica : Virginica   12 
+
+
+Precision : 0.9393939393939394
+Recall : 0.9523809523809524
+F-Score : 0.9410256410256409
+----------------------------------------
+[ 2 ][ 1 ] -> Training Method : GaussianNB() | Scaler Method : MinMaxScaler
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.05405405405405406
+Model Accuracy : 0.9459459459459459
+Confusion Matrix ->  
+ [[14  0  0]
+ [ 0  9  0]
+ [ 0  2 12]] 
+
+    Actual : Predicted 
+    Setosa : Setosa      14 
+    Setosa : VersiColor  0 
+    Setosa : Virginica   0 
+VersiColor : Setosa      0 
+VersiColor : VersiColor  9 
+VersiColor : Virginica   0 
+ Virginica : Setosa      0 
+ Virginica : VersiColor  2 
+ Virginica : Virginica   12 
+
+
+Precision : 0.9393939393939394
+Recall : 0.9523809523809524
+F-Score : 0.9410256410256409
+----------------------------------------
+[ 2 ][ 2 ] -> Training Method : GaussianNB() | Scaler Method : StandardScaler
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.05405405405405406
+Model Accuracy : 0.9459459459459459
+Confusion Matrix ->  
+ [[14  0  0]
+ [ 0  9  0]
+ [ 0  2 12]] 
+
+    Actual : Predicted 
+    Setosa : Setosa      14 
+    Setosa : VersiColor  0 
+    Setosa : Virginica   0 
+VersiColor : Setosa      0 
+VersiColor : VersiColor  9 
+VersiColor : Virginica   0 
+ Virginica : Setosa      0 
+ Virginica : VersiColor  2 
+ Virginica : Virginica   12 
+
+
+Precision : 0.9393939393939394
+Recall : 0.9523809523809524
+F-Score : 0.9410256410256409
+----------------------------------------
+
+
+
+
+
+************************************************************
+[ ! ] Input :  ['sepal_length' 'sepal_width' 'petal_width'] | Output :  class 
+
+
+[ 0 ][ 0 ] -> Training Method : LinearRegression() | Scaler Method : N/A
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.18796495135337243
+Model Accuracy : 0.9198681304880667
+----------------------------------------
+[ 0 ][ 1 ] -> Training Method : LinearRegression() | Scaler Method : MinMaxScaler
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.18796495135337202
+Model Accuracy : 0.9198681304880668
+----------------------------------------
+[ 0 ][ 2 ] -> Training Method : LinearRegression() | Scaler Method : StandardScaler
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.18796495135337163
+Model Accuracy : 0.9198681304880668
+----------------------------------------
+[ 1 ][ 0 ] -> Training Method : LogisticRegression() | Scaler Method : N/A
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.05405405405405406
+Model Accuracy : 0.9459459459459459
+Confusion Matrix ->  
+ [[14  0  0]
+ [ 0  9  0]
+ [ 0  2 12]] 
+
+    Actual : Predicted 
+    Setosa : Setosa      14 
+    Setosa : VersiColor  0 
+    Setosa : Virginica   0 
+VersiColor : Setosa      0 
+VersiColor : VersiColor  9 
+VersiColor : Virginica   0 
+ Virginica : Setosa      0 
+ Virginica : VersiColor  2 
+ Virginica : Virginica   12 
+
+
+Precision : 0.9393939393939394
+Recall : 0.9523809523809524
+F-Score : 0.9410256410256409
+----------------------------------------
+[ 1 ][ 1 ] -> Training Method : LogisticRegression() | Scaler Method : MinMaxScaler
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.05405405405405406
+Model Accuracy : 0.9459459459459459
+Confusion Matrix ->  
+ [[14  0  0]
+ [ 0  9  0]
+ [ 0  2 12]] 
+
+    Actual : Predicted 
+    Setosa : Setosa      14 
+    Setosa : VersiColor  0 
+    Setosa : Virginica   0 
+VersiColor : Setosa      0 
+VersiColor : VersiColor  9 
+VersiColor : Virginica   0 
+ Virginica : Setosa      0 
+ Virginica : VersiColor  2 
+ Virginica : Virginica   12 
+
+
+Precision : 0.9393939393939394
+Recall : 0.9523809523809524
+F-Score : 0.9410256410256409
+----------------------------------------
+[ 1 ][ 2 ] -> Training Method : LogisticRegression() | Scaler Method : StandardScaler
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.05405405405405406
+Model Accuracy : 0.9459459459459459
+Confusion Matrix ->  
+ [[14  0  0]
+ [ 0  9  0]
+ [ 0  2 12]] 
+
+    Actual : Predicted 
+    Setosa : Setosa      14 
+    Setosa : VersiColor  0 
+    Setosa : Virginica   0 
+VersiColor : Setosa      0 
+VersiColor : VersiColor  9 
+VersiColor : Virginica   0 
+ Virginica : Setosa      0 
+ Virginica : VersiColor  2 
+ Virginica : Virginica   12 
+
+
+Precision : 0.9393939393939394
+Recall : 0.9523809523809524
+F-Score : 0.9410256410256409
+----------------------------------------
+[ 2 ][ 0 ] -> Training Method : GaussianNB() | Scaler Method : N/A
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.05405405405405406
+Model Accuracy : 0.9459459459459459
+Confusion Matrix ->  
+ [[14  0  0]
+ [ 0  9  0]
+ [ 0  2 12]] 
+
+    Actual : Predicted 
+    Setosa : Setosa      14 
+    Setosa : VersiColor  0 
+    Setosa : Virginica   0 
+VersiColor : Setosa      0 
+VersiColor : VersiColor  9 
+VersiColor : Virginica   0 
+ Virginica : Setosa      0 
+ Virginica : VersiColor  2 
+ Virginica : Virginica   12 
+
+
+Precision : 0.9393939393939394
+Recall : 0.9523809523809524
+F-Score : 0.9410256410256409
+----------------------------------------
+[ 2 ][ 1 ] -> Training Method : GaussianNB() | Scaler Method : MinMaxScaler
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.05405405405405406
+Model Accuracy : 0.9459459459459459
+Confusion Matrix ->  
+ [[14  0  0]
+ [ 0  9  0]
+ [ 0  2 12]] 
+
+    Actual : Predicted 
+    Setosa : Setosa      14 
+    Setosa : VersiColor  0 
+    Setosa : Virginica   0 
+VersiColor : Setosa      0 
+VersiColor : VersiColor  9 
+VersiColor : Virginica   0 
+ Virginica : Setosa      0 
+ Virginica : VersiColor  2 
+ Virginica : Virginica   12 
+
+
+Precision : 0.9393939393939394
+Recall : 0.9523809523809524
+F-Score : 0.9410256410256409
+----------------------------------------
+[ 2 ][ 2 ] -> Training Method : GaussianNB() | Scaler Method : StandardScaler
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.05405405405405406
+Model Accuracy : 0.9459459459459459
+Confusion Matrix ->  
+ [[14  0  0]
+ [ 0  9  0]
+ [ 0  2 12]] 
+
+    Actual : Predicted 
+    Setosa : Setosa      14 
+    Setosa : VersiColor  0 
+    Setosa : Virginica   0 
+VersiColor : Setosa      0 
+VersiColor : VersiColor  9 
+VersiColor : Virginica   0 
+ Virginica : Setosa      0 
+ Virginica : VersiColor  2 
+ Virginica : Virginica   12 
+
+
+Precision : 0.9393939393939394
+Recall : 0.9523809523809524
+F-Score : 0.9410256410256409
+----------------------------------------
+
+
+
+
+
+************************************************************
+[ ! ] Input :  ['sepal_length' 'sepal_width' 'petal_length'] | Output :  class 
+
+
+[ 0 ][ 0 ] -> Training Method : LinearRegression() | Scaler Method : N/A
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.19869576585096166
+Model Accuracy : 0.9087454204987159
+----------------------------------------
+[ 0 ][ 1 ] -> Training Method : LinearRegression() | Scaler Method : MinMaxScaler
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.19869576585096146
+Model Accuracy : 0.9087454204987159
+----------------------------------------
+[ 0 ][ 2 ] -> Training Method : LinearRegression() | Scaler Method : StandardScaler
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.19869576585096146
+Model Accuracy : 0.9087454204987159
+----------------------------------------
+[ 1 ][ 0 ] -> Training Method : LogisticRegression() | Scaler Method : N/A
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.10810810810810811
+Model Accuracy : 0.8918918918918919
+Confusion Matrix ->  
+ [[14  0  0]
+ [ 0  8  1]
+ [ 0  3 11]] 
+
+    Actual : Predicted 
+    Setosa : Setosa      14 
+    Setosa : VersiColor  0 
+    Setosa : Virginica   0 
+VersiColor : Setosa      0 
+VersiColor : VersiColor  8 
+VersiColor : Virginica   1 
+ Virginica : Setosa      0 
+ Virginica : VersiColor  3 
+ Virginica : Virginica   11 
+
+
+Precision : 0.8813131313131314
+Recall : 0.8915343915343915
+F-Score : 0.882051282051282
+----------------------------------------
+[ 1 ][ 1 ] -> Training Method : LogisticRegression() | Scaler Method : MinMaxScaler
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.10810810810810811
+Model Accuracy : 0.8918918918918919
+Confusion Matrix ->  
+ [[14  0  0]
+ [ 0  9  0]
+ [ 0  4 10]] 
+
+    Actual : Predicted 
+    Setosa : Setosa      14 
+    Setosa : VersiColor  0 
+    Setosa : Virginica   0 
+VersiColor : Setosa      0 
+VersiColor : VersiColor  9 
+VersiColor : Virginica   0 
+ Virginica : Setosa      0 
+ Virginica : VersiColor  4 
+ Virginica : Virginica   10 
+
+
+Precision : 0.8974358974358975
+Recall : 0.9047619047619048
+F-Score : 0.8838383838383838
+----------------------------------------
+[ 1 ][ 2 ] -> Training Method : LogisticRegression() | Scaler Method : StandardScaler
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.10810810810810811
+Model Accuracy : 0.8918918918918919
+Confusion Matrix ->  
+ [[14  0  0]
+ [ 0  8  1]
+ [ 0  3 11]] 
+
+    Actual : Predicted 
+    Setosa : Setosa      14 
+    Setosa : VersiColor  0 
+    Setosa : Virginica   0 
+VersiColor : Setosa      0 
+VersiColor : VersiColor  8 
+VersiColor : Virginica   1 
+ Virginica : Setosa      0 
+ Virginica : VersiColor  3 
+ Virginica : Virginica   11 
+
+
+Precision : 0.8813131313131314
+Recall : 0.8915343915343915
+F-Score : 0.882051282051282
+----------------------------------------
+[ 2 ][ 0 ] -> Training Method : GaussianNB() | Scaler Method : N/A
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.13513513513513514
+Model Accuracy : 0.8648648648648649
+Confusion Matrix ->  
+ [[14  0  0]
+ [ 0  8  1]
+ [ 0  4 10]] 
+
+    Actual : Predicted 
+    Setosa : Setosa      14 
+    Setosa : VersiColor  0 
+    Setosa : Virginica   0 
+VersiColor : Setosa      0 
+VersiColor : VersiColor  8 
+VersiColor : Virginica   1 
+ Virginica : Setosa      0 
+ Virginica : VersiColor  4 
+ Virginica : Virginica   10 
+
+
+Precision : 0.8585858585858586
+Recall : 0.8677248677248678
+F-Score : 0.8539682539682539
+----------------------------------------
+[ 2 ][ 1 ] -> Training Method : GaussianNB() | Scaler Method : MinMaxScaler
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.13513513513513514
+Model Accuracy : 0.8648648648648649
+Confusion Matrix ->  
+ [[14  0  0]
+ [ 0  8  1]
+ [ 0  4 10]] 
+
+    Actual : Predicted 
+    Setosa : Setosa      14 
+    Setosa : VersiColor  0 
+    Setosa : Virginica   0 
+VersiColor : Setosa      0 
+VersiColor : VersiColor  8 
+VersiColor : Virginica   1 
+ Virginica : Setosa      0 
+ Virginica : VersiColor  4 
+ Virginica : Virginica   10 
+
+
+Precision : 0.8585858585858586
+Recall : 0.8677248677248678
+F-Score : 0.8539682539682539
+----------------------------------------
+[ 2 ][ 2 ] -> Training Method : GaussianNB() | Scaler Method : StandardScaler
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.13513513513513514
+Model Accuracy : 0.8648648648648649
+Confusion Matrix ->  
+ [[14  0  0]
+ [ 0  8  1]
+ [ 0  4 10]] 
+
+    Actual : Predicted 
+    Setosa : Setosa      14 
+    Setosa : VersiColor  0 
+    Setosa : Virginica   0 
+VersiColor : Setosa      0 
+VersiColor : VersiColor  8 
+VersiColor : Virginica   1 
+ Virginica : Setosa      0 
+ Virginica : VersiColor  4 
+ Virginica : Virginica   10 
+
+
+Precision : 0.8585858585858586
+Recall : 0.8677248677248678
+F-Score : 0.8539682539682539
+----------------------------------------
+
+
+
+
+
+************************************************************
+[ ! ] Input :  ['sepal_length' 'sepal_width' 'petal_length' 'petal_width'] | Output :  class 
+
+
+[ 0 ][ 0 ] -> Training Method : LinearRegression() | Scaler Method : N/A
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.17955832480424827
+Model Accuracy : 0.9292129409847941
+----------------------------------------
+[ 0 ][ 1 ] -> Training Method : LinearRegression() | Scaler Method : MinMaxScaler
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.17955832480424821
+Model Accuracy : 0.9292129409847941
+----------------------------------------
+[ 0 ][ 2 ] -> Training Method : LinearRegression() | Scaler Method : StandardScaler
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.17955832480424816
+Model Accuracy : 0.9292129409847941
+----------------------------------------
+[ 1 ][ 0 ] -> Training Method : LogisticRegression() | Scaler Method : N/A
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.10810810810810811
+Model Accuracy : 0.8918918918918919
+Confusion Matrix ->  
+ [[14  0  0]
+ [ 0  8  1]
+ [ 0  3 11]] 
+
+    Actual : Predicted 
+    Setosa : Setosa      14 
+    Setosa : VersiColor  0 
+    Setosa : Virginica   0 
+VersiColor : Setosa      0 
+VersiColor : VersiColor  8 
+VersiColor : Virginica   1 
+ Virginica : Setosa      0 
+ Virginica : VersiColor  3 
+ Virginica : Virginica   11 
+
+
+Precision : 0.8813131313131314
+Recall : 0.8915343915343915
+F-Score : 0.882051282051282
+----------------------------------------
+[ 1 ][ 1 ] -> Training Method : LogisticRegression() | Scaler Method : MinMaxScaler
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.05405405405405406
+Model Accuracy : 0.9459459459459459
+Confusion Matrix ->  
+ [[14  0  0]
+ [ 0  9  0]
+ [ 0  2 12]] 
+
+    Actual : Predicted 
+    Setosa : Setosa      14 
+    Setosa : VersiColor  0 
+    Setosa : Virginica   0 
+VersiColor : Setosa      0 
+VersiColor : VersiColor  9 
+VersiColor : Virginica   0 
+ Virginica : Setosa      0 
+ Virginica : VersiColor  2 
+ Virginica : Virginica   12 
+
+
+Precision : 0.9393939393939394
+Recall : 0.9523809523809524
+F-Score : 0.9410256410256409
+----------------------------------------
+[ 1 ][ 2 ] -> Training Method : LogisticRegression() | Scaler Method : StandardScaler
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.05405405405405406
+Model Accuracy : 0.9459459459459459
+Confusion Matrix ->  
+ [[14  0  0]
+ [ 0  8  1]
+ [ 0  1 13]] 
+
+    Actual : Predicted 
+    Setosa : Setosa      14 
+    Setosa : VersiColor  0 
+    Setosa : Virginica   0 
+VersiColor : Setosa      0 
+VersiColor : VersiColor  8 
+VersiColor : Virginica   1 
+ Virginica : Setosa      0 
+ Virginica : VersiColor  1 
+ Virginica : Virginica   13 
+
+
+Precision : 0.9391534391534391
+Recall : 0.9391534391534391
+F-Score : 0.9391534391534391
+----------------------------------------
+[ 2 ][ 0 ] -> Training Method : GaussianNB() | Scaler Method : N/A
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.05405405405405406
+Model Accuracy : 0.9459459459459459
+Confusion Matrix ->  
+ [[14  0  0]
+ [ 0  9  0]
+ [ 0  2 12]] 
+
+    Actual : Predicted 
+    Setosa : Setosa      14 
+    Setosa : VersiColor  0 
+    Setosa : Virginica   0 
+VersiColor : Setosa      0 
+VersiColor : VersiColor  9 
+VersiColor : Virginica   0 
+ Virginica : Setosa      0 
+ Virginica : VersiColor  2 
+ Virginica : Virginica   12 
+
+
+Precision : 0.9393939393939394
+Recall : 0.9523809523809524
+F-Score : 0.9410256410256409
+----------------------------------------
+[ 2 ][ 1 ] -> Training Method : GaussianNB() | Scaler Method : MinMaxScaler
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.05405405405405406
+Model Accuracy : 0.9459459459459459
+Confusion Matrix ->  
+ [[14  0  0]
+ [ 0  9  0]
+ [ 0  2 12]] 
+
+    Actual : Predicted 
+    Setosa : Setosa      14 
+    Setosa : VersiColor  0 
+    Setosa : Virginica   0 
+VersiColor : Setosa      0 
+VersiColor : VersiColor  9 
+VersiColor : Virginica   0 
+ Virginica : Setosa      0 
+ Virginica : VersiColor  2 
+ Virginica : Virginica   12 
+
+
+Precision : 0.9393939393939394
+Recall : 0.9523809523809524
+F-Score : 0.9410256410256409
+----------------------------------------
+[ 2 ][ 2 ] -> Training Method : GaussianNB() | Scaler Method : StandardScaler
+Y_TRAIN :
+ 1    40
+2    36
+0    32
+Name: class, dtype: int64
+**********
+Y_TEST :
+ 0    14
+2    14
+1     9
+Name: class, dtype: int64
+**********
+Mean Absolute Error : 0.05405405405405406
+Model Accuracy : 0.9459459459459459
+Confusion Matrix ->  
+ [[14  0  0]
+ [ 0  9  0]
+ [ 0  2 12]] 
+
+    Actual : Predicted 
+    Setosa : Setosa      14 
+    Setosa : VersiColor  0 
+    Setosa : Virginica   0 
+VersiColor : Setosa      0 
+VersiColor : VersiColor  9 
+VersiColor : Virginica   0 
+ Virginica : Setosa      0 
+ Virginica : VersiColor  2 
+ Virginica : Virginica   12 
+
+
+Precision : 0.9393939393939394
+Recall : 0.9523809523809524
+F-Score : 0.9410256410256409
+----------------------------------------
+
+
+
+
+
