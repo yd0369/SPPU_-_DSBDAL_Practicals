@@ -1,0 +1,19 @@
+[9:50 AM] Rahul Dagade
+    # Apply logistic regression
+from sklearn.linear_model import LogisticRegression
+model = LogisticRegression()
+model.fit(X_train,Y_train)
+y_pred = model.predict(X_test)
+print('Model Score: ', model.score(X_test, Y_test))  
+from sklearn.metrics import confusion_matrix
+cf_matrix = confusion_matrix(Y_test, y_pred)  #Actual output and predicted output
+print(cf_matrix)
+​[9:50 AM] Rahul Dagade
+    import seaborn as sns
+sns.heatmap(cf_matrix, annot=True)
+​[9:51 AM] Rahul Dagade
+    from sklearn.metrics import precision_recall_fscore_support
+score = precision_recall_fscore_support(Y_test, y_pred, average='micro')
+print('Precision of Model: ', score[0])
+print('Recall of Model: ', score[1])
+print('F-Score of Model: ', score[2])
